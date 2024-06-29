@@ -1,5 +1,10 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+
+const toggleColorScheme = () => {
+  const element = document.querySelector('html');
+  element.classList.toggle('my-app-dark');
+}
 </script>
 
 <template>
@@ -12,7 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <p>Done!</p>
-  <PrimeButton label="Welcome" />
+  <PrimeButton label="Toggle Color Scheme" @click="toggleColorScheme" />
   <HelloWorld msg="Vite + Vue" />
 </template>
 
