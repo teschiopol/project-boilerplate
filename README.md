@@ -1,75 +1,55 @@
-# Nuxt 3 Minimal Starter
+# Vue 3 + TypeScript + Vite + PrimeVue 3 + PrimeFlex(Tailwind)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Requirements
 
-## Setup
-
-Make sure to install the dependencies:
+- node v20+
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+npm i
 ```
 
-## Development Server
+## Usage
 
-Start the development server on `http://localhost:3000`:
+For development
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
-
+For production
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+npm run preview
 ```
 
-Locally preview production build:
+## Resources
+
+- [Vue 3](https://vuejs.org/)
+
+- [Typescript](https://www.typescriptlang.org/)
+
+- [Vite](https://vitejs.dev/)
+
+- [PrimeVue](https://v3.primevue.org/)
+	
+	- [Themes](https://v3.primevue.org/theming/)
+
+	- [Icons](https://v3.primevue.org/icons/)
+
+- [PrimeFlex](https://primeflex.org/)
+
+- [Tailwind](https://tailwindcss.com/)
+
+- [Prime Blocks](https://blocks.primevue.org/)
+
+## Script to replicate
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+npm create vite@latest vue-boilerplate -- --template vue-ts
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+```bash
+npm install primevue
+npm install primeicons
+npm install primeflex
+```

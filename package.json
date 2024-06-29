@@ -1,23 +1,23 @@
 {
-  "name": "spotify-release",
+  "name": "vue-boilerplate",
   "private": true,
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "nuxt": "^3.11.2",
-    "primevue": "^3.51.0",
     "primeflex": "^3.3.1",
-    "primeicons": "^6.0.1",
-    "vue": "3.3.13",
-    "vue-router": "^4.3.0"
+    "primeicons": "^7.0.0",
+    "primevue": "^3.53.0",
+    "vue": "^3.4.29"
   },
   "devDependencies": {
-    "nuxt-primevue": "^0.3.1"
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
   }
 }
