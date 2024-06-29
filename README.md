@@ -1,4 +1,4 @@
-# Vue 3 + TypeScript + Vite + PrimeVue 3 + PrimeFlex(Tailwind)
+# Vue 3 + TypeScript + Vite + PrimeVue 4
 
 ## Requirements
 
@@ -30,17 +30,11 @@ npm run preview
 
 - [Vite](https://vitejs.dev/)
 
-- [PrimeVue](https://v3.primevue.org/)
+- [PrimeVue](https://primevue.org/)
 	
-	- [Themes](https://v3.primevue.org/theming/)
+	- [Themes](https://primevue.org/theming/styled/)
 
-	- [Icons](https://v3.primevue.org/icons/)
-
-- [PrimeFlex](https://primeflex.org/)
-
-- [Tailwind](https://tailwindcss.com/)
-
-- [Prime Blocks](https://blocks.primevue.org/)
+	- [Icons](https://primevue.org/icons/)
 
 ## Script to replicate
 
@@ -49,7 +43,7 @@ npm create vite@latest vue-boilerplate -- --template vue-ts
 ```
 
 ```bash
-npm install primevue
+npm install primevue@4.0.0-rc.2
+npm install @primevue/themes@4.0.0-rc.2
 npm install primeicons
-npm install primeflex
 ```
