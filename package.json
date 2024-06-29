@@ -1,6 +1,7 @@
 {
-  "name": "spotify-release",
+  "name": "vue-boilerplate",
   "private": true,
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
