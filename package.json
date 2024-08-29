@@ -1,23 +1,22 @@
 {
-  "name": "vue-boilerplate",
+  "name": "nuxt-daisy",
   "private": true,
-  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "primeflex": "^3.3.1",
-    "primeicons": "^7.0.0",
-    "primevue": "^3.53.0",
-    "vue": "^3.4.29"
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "@nuxtjs/tailwindcss": "^6"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
-    "typescript": "^5.2.2",
-    "vite": "^5.3.1",
-    "vue-tsc": "^2.0.21"
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.10",
+    "postcss": "^8.4.41"
   }
 }
